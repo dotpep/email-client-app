@@ -11,11 +11,9 @@ Windows Application using .NET 7.0 and Windows Forms, as email protocols for sen
 
 ### Installation
 
-> You can install .exe in release page
-
 1. Clone the repository: 
 ```bash
-
+git clone https://github.com/dotpep/email-client-app
 ```
 2. Open the project in your preferred C# development environment (e.g., Visual Studio).
 3. Check Configuration section below.
@@ -65,6 +63,12 @@ By completing these steps, your Email Client App will be configured to send and 
 
 - Version: 1.0.0
 - Release Date: 02.03.2024
+
+## TODO
+
+- [ ] advanced received emails
+- [ ] gmail login in apps using text components
+- [ ] release exe file 
 
 ## LICENCE
 

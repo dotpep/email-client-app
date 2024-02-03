@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "OpenPop/2.0.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenPop.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/OpenPop.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpenPop/2.0.6.2": {
+      "sha512": "yttOvuqcVV8JQf6RxJ8yB3mQgCP5zlhT7941VK4EsdhtvD6xjfsUKsIkozkAI5o4VdHmtTGVFfeK2rC8aMVFmw==",
+      "type": "package",
+      "path": "openpop/2.0.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/OpenPop.dll",
+        "lib/net20/OpenPop.xml",
+        "openpop.2.0.6.2.nupkg.sha512",
+        "openpop.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "OpenPop >= 2.0.6.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pepel\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Programming\\Pet_project\\WinForms\\EmailClientApp\\EmailClientApp\\EmailClientApp.csproj",
+      "projectName": "EmailClientApp",
+      "projectPath": "D:\\Programming\\Pet_project\\WinForms\\EmailClientApp\\EmailClientApp\\EmailClientApp.csproj",
+      "packagesPath": "C:\\Users\\pepel\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\Pet_project\\WinForms\\EmailClientApp\\EmailClientApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pepel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "OpenPop": {
+            "target": "Package",
+            "version": "[2.0.6.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenPop 2.0.6.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenPop",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}

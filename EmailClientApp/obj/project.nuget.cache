@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZAwuoo0clvnpvihydprSFDIA5kDzjfJsiRq46RZa/pMSAU2Ix42Fu8J+6RkSQigf7YdezZrLUabQe3KJGaLqQg==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Pet_project\\WinForms\\EmailClientApp\\EmailClientApp\\EmailClientApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pepel\\.nuget\\packages\\openpop\\2.0.6.2\\openpop.2.0.6.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenPop 2.0.6.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenPop",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}
