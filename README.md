@@ -7,6 +7,11 @@ Windows Application using .NET 7.0 and Windows Forms, as email protocols for sen
 - Email Sending: Send emails to specified recipients with a subject and body.
 - Email Receiving: Receive and display emails from the configured email account.
 
+## Demonstration
+
+![EmailClientApp Interface and Sending/Received emails](assets/demo_email-client-app.png)
+![Result of sended email](assets/demo_email-client-app_result.png)
+
 ## Getting Started
 
 ### Installation
@@ -23,7 +28,7 @@ git clone https://github.com/dotpep/email-client-app
 
 Before using the application, follow these steps to configure your email settings:
 
-1. Open project and EmailApp.cs file
+1. Open project solution and EmailApp.cs file
 ```csharp
 // Email sending configuration btnSend_Click()
 int smtpPort = 587;
